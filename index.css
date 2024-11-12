@@ -1,0 +1,86 @@
+/* global.css */
+
+/* Déclaration des variables CSS */
+:root {
+    --fb-brand-color: red !important;
+    --fb-brand-text-color: white !important;
+    --fb-border-color: rgb(15, 0, 128) !important;
+    --fb-border-color-highlight: rgb(13, 13, 12) !important;
+    --fb-focus-color: red !important;
+    --fb-heading-color: yellow !important;
+    --fb-subheading-color: green !important;
+    --fb-info-text-color: orange !important;
+    --fb-signature-text-color: blue !important;
+    --fb-survey-background-color: black !important;
+    --fb-accent-background-color: rgb(13, 13, 12) !important;
+    --fb-accent-background-color-selected: red !important;
+    --fb-placeholder-color: white !important;
+    --fb-shadow-color: var(--fb-brand-color) !important;
+    --fb-rating-fill: rgb(13, 13, 12) !important;
+    --fb-rating-hover: green !important;
+    --fb-back-btn-border: blue !important;
+    --fb-submit-btn-border: red !important;
+    --fb-rating-selected: black !important;
+}
+
+  
+ /* Application des variables CSS */
+ body {
+    margin: 0;
+    padding: 0;
+    background-color: #4a4a8c;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+
+  .header-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-text {
+    text-align: center;
+    font-size: 1.1rem;
+}
+   
+  /* Logo */
+  .logo{
+    height: 30px;
+    margin-right: 40px;
+    margin-left: 10px;
+  }
+
+.description {
+    border: 1px solid #ff9200;
+    border-radius: 5px;
+}
+
+.row2{
+    margin-top: 100PX !important;
+}
+
+
+.button-start {
+    background-color: #ff9200;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.form-icon {
+    width: 300px; 
+    margin-top: 10px;
+    margin-right: 100px;
+
+}
+
+.button-start{
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+}
+

@@ -1,0 +1,42 @@
+body {
+  background-color: #d3d6da;
+}
+
+/* Style pour le conteneur principal */
+.form-container {
+
+  background-color: #d3d6da;
+  border-radius: 10px;
+  /* padding: 30px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 600px;
+
+
+}
+
+/* Style pour l'en-tête */
+.header {
+  background-color:#4a4a8c;
+  color: white;
+  width: 100%;
+  text-align: center;
+  
+  display: flex;
+  align-items: center;
+  
+  height: 80PX;
+
+}
+
+/* Logo */
+.logo img {
+  height: 30px;
+  margin-right: 40px;
+  margin-left: 10px;
+}
+
+.header h5 {
+  margin-left: 300px;
+  font-weight: bold;
+  text-align: center;
+}
